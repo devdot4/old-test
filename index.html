@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Mike Ahmedov / Dev</title>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:200" />
+  <link rel='stylesheet' href='components/css/animate.css' />
+  <link rel='stylesheet' href='components/css/uikit.min.css' />
+  <link rel='stylesheet' href='components/css/app.css' />
+</head>
+
+<body id='top-image'>
+  <div class='uk-offcanvas-content'>
+    <div data-uk-sticky>
+      <a id='but-on' href='#main' uk-icon='icon: cog; ratio: 2' type='button' uk-toggle='target: #offcanvas-reveal'></a></li><br>
+      <a id='but-on2' href='#other' uk-icon='icon: nut; ratio: 2' type='button' uk-toggle='target: #offcanvas-reveal2'></a>
+    </div>
+    <div id='offcanvas-reveal' uk-offcanvas='mode: reveal; overlay: true'>
+      <div class='uk-offcanvas-bar'>
+        <ul class='uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical'>
+          <li class='uk-active'><a href='#'>HOME</a></li>
+          <li class='uk-parent'>
+            <a href='#'>PROJECTS</a>
+          </li>
+          <li class='uk-nav-header'>OTHER</li>
+          <li><a href='#about'><span class='uk-margin-small-right' uk-icon='icon: table'></span>ABOUT</a></li>
+          <li><a href='#contact'><span class='uk-margin-small-right' uk-icon='icon: thumbnails'></span>CONTACT</a></li>
+          <li class='uk-nav-divider'></li>
+          <li><a href='components/misc/mike-ahmedov.pdf'><span class='uk-margin-small-right' uk-icon='icon: thumbnails'></span>RESUME</a></li>
+          <br>
+          <div class='uk-align-center js-tilt'><img src='components/img/logo.webp' alt=''></div>
+        </ul>
+      </div>
+      <div id='offcanvas-reveal2' uk-offcanvas='mode: reveal; overlay: true'>
+        <div class='uk-offcanvas-bar'>
+          <ul class='uk-nav-center uk-nav uk-nav-default'>
+            <li class='uk-active'><a href='#'>Active</a></li>
+            <li class='uk-parent'>
+              <a href='#'>Parent</a>
+              <ul class='uk-nav-sub'>
+                <li><a href='#'>Sub item</a></li>
+                <li><a href='#'>Sub item</a></li>
+              </ul>
+            </li>
+            <li class='uk-nav-header'>Header</li>
+            <li><a href='#'><span class='uk-margin-small-right' uk-icon='icon: table'></span> Item</a></li>
+            <li><a href='#'><span class='uk-margin-small-right' uk-icon='icon: thumbnails'></span> Item</a></li>
+            <li class='uk-nav-divider'></li>
+            <li><a href='#'><span class='uk-margin-small-right' uk-icon='icon: trash'></span> Item</a></li>
+            <p class='footer'>Credits 2017</p>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class='headur'>
+      MIKE
+      <div>
+        < <span class='web-dev'>WEB DEVELOPER</span> ></div>
+      AHMEDOV
+    </div>
+  </div>
+  <script src='components/js/jquery-3.2.1.min.js'></script>
+  <script src='components/js/tilt.jquery.min.js'></script>
+  <script src='components/js/uikit.min.js'></script>
+  <script src='components/js/uikit-icons.min.js'></script>
+  <script src='components/js/app.js'></script>
+</body>
+
+</html>
