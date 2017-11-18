@@ -5,48 +5,57 @@
   <title>Mike Ahmedov / Dev</title>
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <!-- stylesheets -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:200|Roboto" />
   <link rel='stylesheet' href='components/css/animate.css' />
   <link rel='stylesheet' href='components/css/uikit.min.css' />
   <link rel='stylesheet' href='components/css/app.css' />
+  <!-- stylesheets -->
 </head>
 
 <body id='top-image'>
   <div class='uk-offcanvas-content'>
     <div data-uk-sticky>
-      <a id='but-on' href='#main' uk-icon='icon: cog; ratio: 2' type='button' uk-toggle='target: #offcanvas-reveal' title='&nbsp;MAIN&nbsp;' uk-tooltip='pos: right'></a></li><br>
-      <a id='but-on2' href='#other' uk-icon='icon: hashtag; ratio: 2' type='button' uk-toggle='target: #offcanvas-reveal2' title='&nbsp;INFO&nbsp;' uk-tooltip='pos: right'></a>
+      <a id='but-on js-enable' href='#main' uk-icon='icon: menu; ratio: 2' type='button' uk-toggle='target: #offcanvas-reveal' title='&nbsp;MAIN&nbsp;' uk-tooltip='pos: right'></a><br>
+      <a id='but-on2' href='#other' uk-icon='icon: more; ratio: 2' type='button' uk-toggle='target: #offcanvas-reveal2' title='&nbsp;INFO&nbsp;' uk-tooltip='pos: right'></a>
     </div>
+    <!-- nav sidebar -->
+
     <div id='offcanvas-reveal' uk-offcanvas='mode: reveal; overlay: true'>
       <div class='uk-offcanvas-bar'>
         <ul class='uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical'>
           <li class='uk-active'><a href='#home'><span class='uk-margin-small-right' uk-icon='icon: home'></span>HOME</a></li>
-          <li class='uk-parent'>
-            <a href='#projects'><span class='uk-margin-small-right' uk-icon='icon: git-branch'></span>PROJECTS</a>
-          </li>
+          <li><a href='#projects'><span class='uk-margin-small-right' uk-icon='icon: git-branch'></span>PROJECTS</a></li>
           <li><a href='#about'><span class='uk-margin-small-right' uk-icon='icon: table'></span>ABOUT</a></li>
           <li><a href='#contact'><span class='uk-margin-small-right' uk-icon='icon: mail'></span>CONTACT</a></li>
-          <li><a href='components/misc/mike-ahmedov.pdf'><span class='uk-margin-small-right' uk-icon='icon: settings'></span>RESUME</a></li><br><br>
+          <li><a href='components/mike-ahmedov.pdf'><span class='uk-margin-small-right' uk-icon='icon: settings'></span>RESUME</a></li><br><br>
           <li class='uk-nav-divider'></li>
-
         </ul>
+        <!-- main sidebar -->
         <div class='uk-align-center js-tilt'><img src='components/img/logo.webp'></div>
         <span class='uk-position-bottom footer'>Mike Ahmedov - 2017</span>
       </div>
+      <!-- uk-offcanvas-bar -->
+
       <div id='offcanvas-reveal2' uk-offcanvas='mode: reveal; overlay: true'>
         <div class='uk-offcanvas-bar'>
           <ul class='uk-nav-center uk-nav uk-nav-default'>
-            </li>
             <li class='uk-nav-header'>Header</li>
             <li><a href='#'><span class='uk-margin-small-right' uk-icon='icon: table'></span> Item</a></li>
             <li><a href='#'><span class='uk-margin-small-right' uk-icon='icon: thumbnails'></span> Item</a></li>
             <li class='uk-nav-divider'></li>
             <li><a href='#'><span class='uk-margin-small-right' uk-icon='icon: trash'></span> Item</a></li>
           </ul>
+          <!-- ul - second sidebar -->
           <span class='uk-position-bottom footer'>Mike Ahmedov - 2017</span>
         </div>
+        <!-- uk-offcanvas-bar -->
       </div>
+      <!-- offcanvas-reveal2 -->
+
     </div>
+    <!-- offcanvas-reveal -->
+
     <div class='headur'>
       MIKE
       <div>
@@ -55,13 +64,16 @@
       AHMEDOV
       <p class='quote'>01101111011010110010000001110100011010000110010101101110</p>
     </div>
+    <!-- headur -->
 
   </div>
+  <!-- scripts -->
   <script src='components/js/jquery-3.2.1.min.js'></script>
   <script src='components/js/tilt.jquery.min.js'></script>
   <script src='components/js/uikit.min.js'></script>
   <script src='components/js/uikit-icons.min.js'></script>
   <script src='components/js/app.js'></script>
+  <!-- scripts -->
 </body>
 
 </html>
