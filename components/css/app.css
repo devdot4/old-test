@@ -12,10 +12,6 @@ body {
   background-size: calc(110% + 50px);
   background-attachment: fixed;
   background-repeat: no-repeat;
-  /*top: 0;*/
-  /*right: 0;*/
-  /*width: 100%;*/
-  /*z-index: 0;*/
   height: 100vh;
 }
 
