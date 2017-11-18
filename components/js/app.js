@@ -19,5 +19,5 @@ $(document).ready(function() {
       $(this).removeClass('animated fadeIn');
     });
   });
-  $('.js-tilt').tilt({scale: 1.2})
+  $('.js-tilt').tilt({scale: 1.2});
 });
