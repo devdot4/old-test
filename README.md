@@ -8,8 +8,8 @@ Check 2.0 out above or click [this](https://mahmedov.com/portfolio-2.0)
 
 ## Splash
 
-![md-1](components/img/md-demo-1.webp)
+![md-1](components/img/md-demo-new.webp)
 
 ## Sidebar
 
-![md-2](components/img/md-demo-2.webp)
+![md-2](components/img/md-demo-new2.webp)
