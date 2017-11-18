@@ -6,10 +6,16 @@ Here is the original [one](https://mahmedov.com) and here's the [repo](https://g
 
 Check 2.0 out above or click [this](https://mahmedov.com/portfolio-2.0)
 
+Stack:
+- animate.css
+- tilt.js
+- uikit
+- jquery
+
 ## Splash
 
-![md-1](components/img/md-demo-new.webp)
+![md-1](components/img/md-demo-1.webp)
 
 ## Sidebar
 
-![md-2](components/img/md-demo-new2.webp)
+![md-2](components/img/md-demo-2.webp)
