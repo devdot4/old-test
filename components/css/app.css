@@ -36,6 +36,12 @@ body {
   background: #44444461;
 }
 
+.quote {
+  ont-family: 'Roboto', sans-serif;
+  color: #46a5dc;
+  font-size: 0.4em;
+}
+
 .web-dev {
   color: #46a5dc;
 }
