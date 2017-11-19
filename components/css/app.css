@@ -3,15 +3,21 @@
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: 'Dosis', sans-serif;
+  overflow-x: hidden;
 }
 
 #top-image {
-  background: url('../img/space.webp') -25px -50px;
-  background-size: calc(110% + 50px);
-  background-attachment: fixed;
+  background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background: url('../img/space.webp');
   height: 100vh;
 }
 
@@ -62,4 +68,13 @@ body {
   font-family: 'Roboto', sans-serif;
   bottom: 10px;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .headur {
+    font-size: 3em;
+  }
+  .quote {
+    font-size: 0.50em;
+  }
 }
