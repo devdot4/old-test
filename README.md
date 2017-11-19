@@ -7,15 +7,24 @@ Here is the original [one](https://mahmedov.com) and here's the [repo](https://g
 Check 2.0 out above or click [this](https://mahmedov.com/portfolio-2.0)
 
 Stack:
-- animate.css
-- tilt.js
-- uikit
-- jquery
+- uikit (main framework)
+- jquery (is amazing)
+- animate.css (button animations)
+- tilt.js (mousemove effects)
 
-## Splash
 
-![md-1](components/img/md-demo-1.webp)
+Image:
 
-## Sidebar
+Deep Space from [Mysterious Space](http://store.steampowered.com/app/368700/Mysterious_Space/)
 
-![md-2](components/img/md-demo-2.webp)
+## Main Header
+
+![md-1](components/img/md-demo-one.webp)
+
+## Main Sidebar
+
+![md-2](components/img/md-demo-two.webp)
+
+## Info Sidebar
+
+![md-2](components/img/md-demo-three.webp)
