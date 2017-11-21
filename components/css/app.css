@@ -17,7 +17,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background: url('../img/space.webp');
+  background: url('../img/bg.webp');
   height: 100vh;
 }
 
@@ -37,7 +37,9 @@ body {
 .uk-offcanvas-bar {
   background: #44444461;
 }
-
+.faq {
+  font-size: 1.25em;
+}
 .quote {
   font-family: 'Roboto', sans-serif;
   color: #46a5dc;
