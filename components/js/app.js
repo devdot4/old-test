@@ -1,14 +1,15 @@
 $(document).ready(function() {
-  var movementStrength = 30;
-  var height = movementStrength / $(window).height();
-  var width = movementStrength / $(window).width();
+  var mS = 30;
+  var h = mS / $(window).height();
+  var w = mS / $(window).width();
   $("#top-image").mousemove(function(e) {
-    var pageX = e.pageX - ($(window).width() / 2);
-    var pageY = e.pageY - ($(window).height() / 2);
-    var newvalueX = width * pageX * -1 - 25;
-    var newvalueY = height * pageY * -1 - 50;
-    $('#top-image').css("background-position", newvalueX + "px     " + newvalueY + "px");
+    var x = e.pageX - ($(window).width() / 2);
+    var y = e.pageY - ($(window).height() / 2);
+    var nX = w * x * -1 - 25;
+    var nY = h * y * -1 - 50;
+    $('#top-image').css("background-position", nX + "px     " + nY + "px");
   });
+  $('.js-tilt').tilt({scale: 1.2});
   $('#but-on').on('click', function() {
     $('#but-on').addClass('animated fadeIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
       $(this).removeClass('animated fadeIn');
@@ -19,5 +20,4 @@ $(document).ready(function() {
       $(this).removeClass('animated fadeIn');
     });
   });
-  $('.js-tilt').tilt({scale: 1.2});
 });
