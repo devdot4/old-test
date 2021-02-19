@@ -1,15 +1,8 @@
-# portfolio-2.0
-
-`This is a second launch of the portfolio I tried to make forever. I hope that luck is on my side.`
-
-Here is the original [one](https://devdot4.github.io/) + the [repo](https://github.com/devdot4/devdot4.github.io)
-
-Check 2.0 out above or click [this](https://devdot4.github.io/portfolio-2.0/)
+# devdot4 static website
 
 Stack:
-
 - uikit (main framework)
-- jquery (is amazing)
+- jquery (for ome reason ¯\_(ツ)_/¯)
 - animate.css (button animations)
 - tilt.js (mousemove effects)
 
